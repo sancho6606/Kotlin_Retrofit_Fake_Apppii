@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"></ImageView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textviewname"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/textviewdescription"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:text="Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+
+
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RatingBar>
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/textviewprice"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:text="Country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
